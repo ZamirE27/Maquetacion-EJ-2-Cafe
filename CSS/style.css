@@ -21,21 +21,21 @@ body{
     background-image: url(../images/banner.webp);
     background-size: cover ;
     background-position: center;
-    height: 35rem;
+    height: 37.5rem;
 }
 .header_container{
-padding-left:20rem;
-padding-right:20rem;
+padding-left:22.5rem;
+padding-right:22.5rem;
 }
 .header_content{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 35px;
+    padding-top: 29px;
 }
 .tittle{
     display: flex;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 100;
     color: var(--white);
 }
@@ -55,25 +55,40 @@ padding-right:20rem;
     color: var(--white);
 }
 .sub_tittle{
-    margin-top: 10rem;
+    margin-top: 8rem;
     text-align: center;
     color: var(--white);
 }
 .sub_tittle h2{
     font-size: 2.5rem;
 }
-.sub_tittle p{
+.sub_text{
     font-size: 1.1rem;
+    margin: 0;
 }
 .content{
-    max-width: 100rem;
+    max-width: 75rem;
     width: 90%;
     margin: 0 auto;
 }
 .cards{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap: 4rem;
+    column-gap: 2.5rem;
+}
+.card_1{
+    border-bottom: 3px solid #e1e1e1e1;
+    margin-bottom: 1.2rem;
+    overflow: hidden;
+}
+.card_1:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+.cards_content{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 h3{
     font-size: 32px;
@@ -91,7 +106,51 @@ h4{
 p{
     line-height: 1.8;
     margin: 1em;
+    font-size: 1.1rem;
     margin-inline-start: 0;
     margin-inline-end: 0;
+    overflow: hidden;
     
+}
+.button_card_1{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bold ;
+    background-color: var(--black);
+    padding: 1rem 2rem;
+    margin-bottom: 1.2rem;
+    border: none;
+}
+
+.card_courses_4{
+    display: flex;
+    flex-flow: column;
+    gap: 1.3rem;
+    list-style: none;
+    
+    
+}
+.courses{
+    border-bottom: 1px solid #e1e1e1e1;
+    padding-bottom: 2rem;
+}
+.bold_p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+.normal{
+    font-weight: normal;
+}
+.courses_button{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bold ;
+    background-color: var(--course_button);
+    padding: 1rem 2rem;
+    margin-bottom: 1.2rem;
+    border: none;
+    overflow: hidden;
 }
